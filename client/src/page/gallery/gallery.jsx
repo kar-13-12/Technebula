@@ -6,34 +6,34 @@ import gallery4 from "../../assets/g5.jpg";
 import gallery5 from "../../assets/gallery-3.jpeg";
 import gallery6 from "../../assets/g6.jpg";
 import "./gallery.css";
-import { FadeOnVisible } from "../../component/FadeOnVisible/FadeOnVisible";
-import { FadeOnVisibleRight } from "../../component/FadeOnVisibleRight/FadeOnVisibleRight";
 import { FadeOnVisibleLeft } from "../../component/FadeOnVisibleLeft/FadeOnVisibleLeft";
+import { FadeOnVisibleRight } from "../../component/FadeOnVisibleRight/FadeOnVisibleRight";
 
 const Gallery = () => {
   return (
     <div className="head-gallery">
       <Navbar />
       <div className="three-img">
-        <div className='image-container'>
+        <div className="image-container">
           <img src={gallery1} className="g1" alt="" />
           <div className="details-overlay">
-            <p>Teaching class </p>
+            <p>Teaching Session</p>
           </div>
         </div>
-        <div className='image-container'>
+        <div className="image-container">
           <img src={gallery2} className="g1" alt="" />
           <div className="details-overlay">
-            <p>Teaching class </p>
+            <p>Students</p>
           </div>
         </div>
-        <div className='image-container'>
+        <div className="image-container">
           <img src={gallery3} className="g1" alt="" />
           <div className="details-overlay">
-            <p>Teaching class </p>
+            <p>Seminar Time</p>
           </div>
         </div>
       </div>
+
       <div className="learning">
         <h1>Discover The New way of Learning</h1>
       </div>
@@ -45,6 +45,7 @@ const Gallery = () => {
         <div>
           <img src={gallery4} className="g4" alt="" />
         </div>
+
         <div className="lorem">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
