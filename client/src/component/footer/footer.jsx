@@ -37,7 +37,7 @@ const Footer = () => {
   const handleResize = () => {
     const windowHeight = window.innerHeight;
     const bodyHeight = document.body.scrollHeight;
-
+  
     // Check if the window height is greater than or equal to the body height
     if (windowHeight >= bodyHeight) {
       setIsVisible(true);
@@ -45,6 +45,7 @@ const Footer = () => {
       setIsVisible(false);
     }
   };
+  
 
   // Add scroll and resize event listeners when component mounts
   useEffect(() => {
