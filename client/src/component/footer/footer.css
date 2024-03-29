@@ -1,0 +1,50 @@
+.head-footer {
+    background-color: rgb(17, 103, 177);
+    font-family: "Poppins", sans-serif;
+    padding-top: 1rem;
+}
+.copy-right {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+.copy-right ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    padding-right: 3rem;
+}
+.neet-map {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-top: 1rem;
+}
+.maps{
+    display: flex;
+    gap: 3rem;
+}
+
+.maps ul li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.follow {
+    margin-top: .5rem;
+    font-weight: bold;
+
+}
+.apps{
+    display: flex;
+    gap: 30px;
+    font-size: 2.5ch;
+    margin-top: 1rem;
+}
+
+.footer-h{
+
+    font-size: 0px;
+}

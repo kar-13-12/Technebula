@@ -1,0 +1,681 @@
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+  .head-name {
+    padding-left: 4px !important;
+
+    margin: 1px !important;
+    flex-direction: row;
+    width: 250px;
+  }
+  .academy {
+    margin-top: 4.1px;
+    font-size: 10px !important;
+    padding-right: 1px;
+    width: 100%;
+  }
+  .siva {
+    width: 248px;
+  }
+  .siva h1 {
+    font-size: 20px !important;
+    width: 100%;
+  }
+  .assist {
+    font-size: 0.5rem;
+    width: 240px;
+  }
+
+  .nav-bar {
+    left: -1rem;
+    height: 20px;
+  }
+
+  .app-bar {
+    display: none;
+  }
+
+  .form-data {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .lady-img {
+    max-width: 200px;
+    margin: 0px !important;
+  }
+  .neet-font {
+    font-size: 15px;
+  }
+  .lady-doctor {
+    width: 100% !important;
+    padding-top: 40px;
+  }
+  .form {
+    margin: 0px !important;
+    left: 127px;
+    bottom: 29px;
+    width: 370px !important;
+  }
+
+  .input {
+    padding: 0.5rem;
+    width: 300px !important;
+  }
+  .option {
+    padding: 0.5rem;
+    width: 300px !important;
+  }
+  .five-person {
+    display: none;
+  }
+  .text-about {
+    background-color: white !important;
+    color: rgb(1, 1, 255) !important;
+    text-align: center;
+    font-size: 1ch;
+    bottom: 0px;
+    top: 0px;
+    left: 10rem !important;
+    width: 100% !important;
+    position: relative !important;
+    padding: 0px !important;
+  }
+  .text-about p {
+    text-align: center !important;
+    padding-top: 1rem;
+    color: rgb(15, 15, 89);
+  }
+  .text-about h1 {
+    font-size: 6ch;
+    color: rgb(15, 15, 89);
+    padding-left: 8px;
+    padding-top: 10px;
+  }
+  .about-person {
+    display: block !important;
+    width: 100px !important;
+    margin-left: 8rem;
+  }
+  .dot {
+    display: none;
+  }
+  .group-img img {
+    display: none;
+  }
+
+  .group-img {
+    width: 100% !important;
+    position: relative;
+    right: 10rem;
+  }
+  .choose h2 {
+    font-size: 4ch !important;
+    text-align: center;
+  }
+  .teacher {
+    margin: 0px !important;
+    gap: 0px !important;
+    width: 100% !important;
+    padding-bottom: 2rem;
+    gap: 2px;
+    align-items: flex-start !important;
+  }
+  .img-teacher-text h2 {
+    margin-top: -8px !important;
+  }
+  .teacher-img {
+    width: 200px !important;
+  }
+  .teacher h2 {
+    margin-top: 0px;
+  }
+  .img-teacher-text p {
+    font-size: 20px;
+  }
+  .our-vision {
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+  .man {
+    width: 250px !important;
+  }
+  .girl {
+    top: 28.2rem !important;
+    left: 8rem !important;
+    width: 250px !important;
+    /* height: 100px !important; */
+  }
+  .team-manager {
+    display: none;
+    width: 600px !important;
+    height: 300px !important;
+    /* display: none; */
+  }
+  .vision {
+    margin-left: 10px !important;
+    padding-bottom: 20px;
+  }
+  .vision h2 {
+    font-size: 3ch !important;
+  }
+  .vision p {
+    font-size: 2ch !important;
+    width: 300px;
+    padding-left: 4px;
+  }
+  .body-cell {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .nervous {
+    width: 200px !important;
+    padding: 1rem 0px;
+  }
+  .cell {
+    width: 200px !important;
+    height: 100px !important;
+  }
+  .main-gallery {
+    margin: 0px;
+  }
+  .gallery-1 {
+    padding: 1rem;
+  }
+  .img-text {
+    width: 158px;
+    height: 150px;
+    padding: 1rem;
+    left: 1rem;
+    top: 1rem;
+  }
+  .img-text p {
+    font-size: 1ch;
+  }
+  .img-text-2 {
+    width: 158px;
+    height: 150px;
+    top: 1rem;
+    left: 1rem;
+  }
+  .img-text-2 p {
+    font-size: 1ch;
+  }
+  .img-text-3 {
+    width: 158px;
+    height: 300px;
+    top: 1rem;
+    left: 1rem;
+  }
+  .img-text-3 p {
+    font-size: 1.5ch;
+  }
+  .img-text-4 {
+    width: 191px;
+    height: 300px;
+  }
+  .img-text-4 p {
+    font-size: 1.5ch;
+  }
+  .img-text-5 {
+    width: 380px;
+    height: 300px;
+  }
+  .gallery-4 {
+    top: -0rem;
+    left: 0rem;
+  }
+  .gallery-5 {
+    top: 0px;
+    left: 0px;
+    position: relative;
+  }
+  .gal-4 {
+    height: 300px;
+  }
+  .gal-2 {
+    height: 150px;
+    width: 500px;
+  }
+  .gal-1 {
+    width: 500px;
+    height: 150px;
+  }
+  .gal-3 {
+    width: 410px;
+    height: 300px;
+  }
+  .app {
+    display: none !important;
+  }
+  .text h1 {
+    text-align: center !important;
+    margin: 10px 0px !important;
+    font-size: 3ch !important;
+    width: 100%;
+    padding: 0px !important;
+  }
+  .class {
+    margin: 0px !important;
+  }
+  .contact {
+    flex-direction: column-reverse !important;
+  }
+
+  .small-ball {
+    display: none;
+  }
+  .small-ball-1 {
+    display: none;
+  }
+  .small-ball-2 {
+    display: none;
+  }
+  .small-ball-3 {
+    display: none;
+  }
+  .blue-ball {
+    display: none;
+  }
+  .blue-ball-1 {
+    display: none;
+  }
+  .small-ball-furit {
+    display: none;
+  }
+  .small-ball-watapp-2 {
+    display: none;
+  }
+  .blue-ball-2 {
+    display: none;
+  }
+  .small-ball-watapp-1 {
+    display: none;
+  }
+  .question {
+    display: none;
+  }
+  .question-1 {
+    display: none;
+  }
+  .question-2 {
+    display: none;
+  }
+  .steve {
+    display: none;
+  }
+  .color {
+    font-size: 2ch !important;
+  }
+  .cam {
+    max-width: 50px;
+  }
+  .session {
+    margin: 2rem 1rem !important;
+    margin-top: 2rem !important;
+    width: 320px !important;
+    padding-right: 1rem;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .days {
+    font-size: 2.5ch !important;
+  }
+  .doctor {
+    width: 103px !important;
+  }
+
+  .experts-person {
+    padding: 0px !important;
+  }
+  .experts-person p {
+    font-size: 2ch !important;
+  }
+  .experts {
+    font-size: 3ch !important;
+  }
+  p.text-2xl.text-sky-500 {
+    font-size: 1.5ch;
+  }
+  .person {
+    width: 150px !important;
+  }
+  .lap-person {
+    justify-content: space-evenly !important;
+    padding: 1rem;
+  }
+  .heart {
+    margin: 2rem 1rem !important;
+    margin-top: 2rem !important;
+    width: 320px !important;
+    padding-right: rem;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .furit {
+    width: 150px !important;
+  }
+  .phone {
+    margin: 2rem 1rem !important;
+    margin-top: 2rem !important;
+    width: 320px !important;
+    padding-right: rem;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .experts-person {
+    width: 100% !important;
+  }
+  .whatsapp-text {
+    font-size: 2ch !important;
+    width: 100% !important;
+  }
+  .whatapp {
+    margin: 0px !important;
+    width: 200px !important;
+  }
+  .head-footer {
+    display: flex !important;
+    flex-direction: column;
+    font-size: 1.2ch !important;
+  }
+  .copy-right {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center;
+    text-align: center;
+  }
+
+  .copy-right ul {
+    display: none; /* Hide the <ul> element on mobile devices */
+  }
+  .maps {
+    gap: 5px !important;
+  }
+  .live-stream {
+    justify-content: center !important;
+    margin: 0px !important;
+    padding-left: 12rem;
+  }
+  .bio-head {
+    width: 270px !important;
+  }
+  .slider-container {
+    width: 75% !important;
+  }
+  .cell_img {
+    width: 100px !important;
+  }
+  .cell-type {
+    font-size: 1.2ch !important;
+    width: 100px !important;
+  }
+  .small-ball-5 {
+    display: none !important;
+  }
+  .small-ball-7 {
+    display: none !important;
+  }
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    position: relative !important;
+    top: 3rem;
+  }
+  .style {
+    margin: 0px !important;
+  }
+  .course-img {
+    width: 150px !important;
+  }
+  .img-course {
+    left: -1rem !important;
+    top: 13rem !important;
+    display: none;
+  }
+  .input-1 {
+    width: 200px !important;
+  }
+  .text-area {
+    width: 200px !important;
+  }
+  .course-title {
+    flex-direction: column !important;
+  }
+  .small-ball-4 {
+    display: none !important;
+  }
+  .small-ball1 {
+    display: none !important;
+  }
+  .small-ball-6 {
+    display: none !important;
+  }
+  .small-ball2 {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .head-name {
+    padding: 0px !important;
+    margin: 0px !important;
+    flex-direction: row;
+    width: 100% !important;
+  }
+  .siva {
+    width: 50% !important;
+  }
+  .assist {
+    margin: 0px !important;
+    font-size: 1.3ch !important;
+  }
+  .siva h1 {
+    font-size: 3ch !important;
+    margin: 0px !important;
+  }
+  .lady-img {
+    margin: 0px !important;
+    width:900px !important;
+  }
+  .neet-font {
+    font-size: 1ch !important;
+  }
+  .form-data {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .lady-doctor {
+    align-items: flex-start;
+  }
+  .form {
+    margin: 0px !important;
+    width: 350px !important;
+    left: 32rem;
+    top: -10rem;
+    position: absolute !important;
+  }
+  .input {
+    padding: 0.5rem !important;
+    width: 300px !important;
+  }
+  .option {
+    width: 300px !important;
+  }
+  .group-img {
+    top: 24rem !important;
+    margin: 0px !important;
+    right: 130px;
+    position: relative !important;
+  }
+  .five-person {
+    display: none !important;
+  }
+  .us {
+    display: block !important;
+  }
+  .about-person {
+    display: block !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0px !important;
+  }
+  .text-about {
+    position: relative !important;
+    background-color: blue;
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  /* contact-page */
+  .text h1 {
+    padding: 0px !important;
+  }
+  .man {
+    margin-right: 10rem !important;
+  }
+  .girl {
+    left: 20rem !important;
+  }
+  .contact{
+    flex-direction: column-reverse;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .class {
+    margin: 0px !important;
+  }
+  .course-title {
+    flex-direction: column;
+  }
+  .course-img {
+    width: 300px !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .style {
+    margin: 0px !important;
+  }
+  .app {
+    top: 4rem !important;
+  }
+  .img-about {
+    display: flex;
+    /* color: skyblue; */
+    align-items: center;
+    gap: 1rem;
+  }
+  .choose {
+    margin-top: 25rem !important;
+  }
+  .text-about {
+    padding: 2rem !important;
+  }
+  .text-about p {
+    font-size: 2.5ch !important;
+    width: 100% !important;
+  }
+  .text-about h1 {
+    font-size: 4ch !important;
+    display: flex;
+    gap: .5rem;
+  }
+  .dot {
+    display: none;
+  }
+  .teacher-img{
+    width: 400px !important;
+    padding-top: 25px !important;
+  }
+  .teacher {
+    margin: 0px !important;
+    align-items: flex-start !important;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .team-manager {
+    height: 450px !important;
+  }
+  .steve {
+    display: none;
+  }
+  .question {
+    display: none;
+  }
+  .question-1 {
+    display: none;
+  }
+  .question-2 {
+    display: none;
+  }
+  .vision {
+    width: 100% !important;
+    margin: 0px !important;
+    padding-left: 1rem;
+  }
+  .vision p {
+    font-size: 2.5ch !important;
+  }
+  .vision h2 {
+    font-size: 4ch !important;
+  }
+  .small-ball-3 {
+    display: none;
+  }
+  .small-ball-5 {
+    display: none;
+  }
+  .small-ball-7 {
+    display: none;
+  }
+  .live-stream {
+    margin: 0PX !important;
+    padding-right: 5rem !important;
+  }
+  .small-ball-2 {
+    left: 35rem !important;
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .small-ball {
+    top: -5rem !important;
+    left: 35rem  !important;
+  }
+  .small-ball1 {
+    left: 0px !important;
+  }
+  .small-ball-4 {
+    left: 0px !important;
+  }
+ 
+  .small-ball-6 {
+    left: 0px !important;
+  }
+  .small-ball2 {
+    left: 0px !important;
+  }
+  .person {
+    display: none;
+  }
+  .blue-ball {
+  display: none;
+  }
+  .furit {
+    display: none;
+  }
+  .blue-ball-1 {
+    display: none;
+  }
+  .whatapp {
+    display: none;
+  }
+  .blue-ball-2 {
+    display: none;
+  }
+  .session {
+    margin: 0px !important;
+    margin-left: 3rem !important;
+    width: 450px !important;
+  }
+  .lap-person {
+    background-color: linear-gradient(to top, white 50%, blue 50%) !important;
+  }
+}
