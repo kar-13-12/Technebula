@@ -347,7 +347,7 @@ function MyComponent() {
           )}
         </div>
       </div>
-      <div style={{ marginBottom: "20px", marginLeft:"20rem" }}>
+      <div className="next" style={{ marginBottom: "20px", marginLeft:"20rem" }}>
         <Button
           onClick={handlePreviousClick}
           variant="contained"

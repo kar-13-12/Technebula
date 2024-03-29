@@ -62,7 +62,7 @@ const Footer = () => {
     <div className={`head-footer ${isVisible || isEndOfPage ? 'show' : 'hide'}`}>
       <div className="copy-right">
         <p>Copyright 2024 NEET, Powered by Technebula | </p>
-        <ul>
+        <ul className='policy'>
           <li>Rights & Refund Policy</li>
           <li>Privacy Policy</li>
           <li>Support</li>
