@@ -29,7 +29,7 @@ const Gallery = () => {
           <img src={gallery4} className="g4" alt=""/>
         </div>
         <div className="lorem">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eaque.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ducimus voluptates debitis veritatis molestias adipisci quo? Nulla, molestias possimus debitis, repudiandae ullam eius ratione, iusto eum laudantium vel nesciunt iste?</p>
         </div>
       </div>
     </>
