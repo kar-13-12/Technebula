@@ -1,5 +1,5 @@
 .head-gallery {
-  height: 155vh;
+  height: 183vh;
 }
 .three-img {
   display: flex;
@@ -94,3 +94,32 @@ justify-content: flex-end;
   left: 43rem;
   bottom: 5rem;
 }
+.image-container {
+  position: relative;
+  margin: 10px;
+  
+}
+
+.details-overlay {
+  position: absolute;
+  top: 50%; /* Position the overlay at the vertical center of the image */
+  left: 50%; /* Position the overlay at the horizontal center of the image */
+  transform: translate(-1%,-50%); /* Center the overlay perfectly */
+  background-color:#082f49;
+  color: white;
+  padding: 10px;
+  display: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}   

@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
     <div className="main-home">
-      <div className="head-name ">
+      <div className="head-name">
         <div className="siva">
           <h1>
             SIVA MITHRA <span className="academy">NEET ACADEMY</span>

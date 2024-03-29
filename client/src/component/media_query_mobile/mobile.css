@@ -92,7 +92,7 @@
   .about-person {
     display: block !important;
     width: 100px !important;
-    margin-left: 8rem;
+    margin-left: 9rem;
   }
   .dot {
     display: none;
@@ -136,12 +136,12 @@
   }
   .man {
     width: 250px !important;
+    /* height: 400px; */
   }
   .girl {
-    top: 28.2rem !important;
     left: 8rem !important;
     width: 250px !important;
-    /* height: 100px !important; */
+    height: 300px !important;
   }
   .team-manager {
     display: none;
@@ -454,6 +454,91 @@
   .small-ball2 {
     display: none !important;
   }
+  .g1 {
+    margin: 1rem 0px;
+  }
+  .learning {
+    font-size: 3ch;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  .palce {
+    width: 350px !important;
+    margin: 0 auto !important;
+    /* text-align: center; */
+    font-size: 1ch;
+  }
+  .g4 {
+    width: 200px;
+    height: 200px;
+    left: 6rem;
+  }
+  .lorem {
+    left: 0px;
+    width: 100%;
+    background-color: white !important;
+    color: #082f49;
+    font-weight: 600;
+    bottom: -15rem;
+    text-align: left;
+  }
+  .palce p {
+    padding: 0px;
+    justify-content: center;
+  }
+  .seminar {
+    flex-direction: column;
+    
+    position: relative !important;
+    top: 17rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .seminar p {
+   font-size: 3ch;
+   width: 350px !important;
+   height: 140px ;
+   top: 20rem;
+   text-align: center;
+   padding: 10px;
+  }
+  .g5 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 4rem;
+  }
+  .seminar-para {
+    background-color: white;
+    color: #082f49;
+    font-weight: 600;
+    left: 0px;
+    top: 26rem;
+    width: 100% !important;
+    text-align: left;
+  }
+  .main-home {
+    height: 635vh !important;
+  }
+  .head-gallery {
+    height: 320vh !important;
+  }
+  .policy {
+    display: none !important;
+  }
+  .neet-map {
+    padding: 0px !important;
+  }
+  iframe {
+    display: none !important;
+  }
+  .next {
+    margin: 0px !important;
+  }
+  .head-footer {
+    height: 30vh;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -523,9 +608,10 @@
   }
   .text-about {
     position: relative !important;
-    background-color: blue;
+    background-color: rgb(8 47 73) !important;
     width: 100% !important;
     margin: 0px !important;
+    padding: 2rem !important;
   }
   /* contact-page */
   .text h1 {
@@ -568,9 +654,7 @@
   .choose {
     margin-top: 25rem !important;
   }
-  .text-about {
-    padding: 2rem !important;
-  }
+ 
   .text-about p {
     font-size: 2.5ch !important;
     width: 100% !important;
@@ -614,7 +698,7 @@
   .vision {
     width: 100% !important;
     margin: 0px !important;
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
   .vision p {
     font-size: 2.5ch !important;
@@ -680,7 +764,111 @@
     margin-left: 3rem !important;
     width: 450px !important;
   }
-  .lap-person {
-    background-color: linear-gradient(to top, white 50%, blue 50%) !important;
+  .heart {
+    margin: 0px !important;
+    width: 500px !important;
+    margin-left: 3rem !important;
+  }
+  .small-ball-4 {
+    left: 35.4rem !important;
+    width: 200px !important;
+    height: 200px !important;
+    top: -20rem;
+  }
+  .small-ball1 {
+    left: 35rem !important;
+    top: -5rem;
+  }
+  .phone {
+    margin: 0px !important;
+    width: 500px !important;
+    margin-left: 3rem !important;
+  }
+  .small-ball-6 {
+    left: 35.4rem !important;
+    width: 200px !important;
+    height: 200px !important;
+    top: -20rem;
+  }
+  .small-ball2 {
+    left: 35rem !important;
+    top: -5rem;
+  }
+  .main-home {
+    height: 590vh !important;
+  }
+  .img-course {
+    top: 2rem !important;
+  }
+  .next {
+    margin: 0px !important;
+  }
+  .neet-cell {
+    height: 110vh !important;
+  }
+  .body-cell {
+    overflow: auto;
+  }
+  .learning {
+    text-align: center;
+    font-size: 6ch;
+    font-weight: 600;
+  }
+  .palce {
+    width: 90%;
+    margin: 0 auto !important;
+  }
+  .palce p {
+    padding: 0px !important;
+    justify-content: center;
+  }
+  .g4 {
+    left: 14rem;
+    top: 7rem;
+    width: 400px;
+  }
+
+  .lorem {
+    left: 5rem;
+    bottom: -30rem;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    color: #082f49;
+    font-size: 2.5ch;
+    font-weight: 600;
+  }
+  .seminar {
+    flex-direction: column;
+    position: relative;
+    top: 35rem;
+   
+    align-items: center;
+    justify-content: center;
+  }
+  .seminar p {
+    text-align: center;
+     width: 90% !important;
+    margin: 0 auto ;
+  }
+  .g5 {
+    position: absolute;
+    top: 7rem;
+  }
+  .seminar-para {
+    top: 60rem;
+    left: 0px;
+    background-color: white;
+    color: #082f49;
+    font-size: 2.5ch;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .head-gallery {
+    height: 275vh !important;
+  }
+  .main-home {
+    height: 490vh !important;
   }
 }

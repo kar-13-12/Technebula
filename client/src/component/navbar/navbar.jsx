@@ -10,7 +10,7 @@ export default function Navbar() {
   const location = useLocation();
   const [navigation, setNavigation] = useState([
     { name: 'HOME', link: '/', current: location.pathname === '/' },
-    { name: 'ABOUT', link: '#about-container', current: location.pathname === '#about-container' },
+    // { name: 'ABOUT', link: '#about-container', current: location.pathname === '#about-container' },
     { name: 'COURSE', link: '/course', current: location.pathname === '/course' },
     { name: 'GALLERY', link: '/gallery', current: location.pathname === '/gallery' },
     { name: 'CONTACT', link: '/contact', current: location.pathname === '/contact' },

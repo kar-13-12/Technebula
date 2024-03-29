@@ -1,5 +1,6 @@
 .neet-cell {
     height: 90vh;
+    
 }
 .body-cell {
     background-image: url(../../assets/images/dna-img.jpeg);
@@ -8,7 +9,7 @@
     width: 100%;
     height: 65rem !important;
     display: flex;
-    
+    overflow: auto;
 }
 .course-type {
     background-color: skyblue;
