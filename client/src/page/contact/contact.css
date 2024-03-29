@@ -10,6 +10,8 @@
 .head-contact {
     background: linear-gradient(to right, rgb(3, 37, 76), rgb(20, 100, 180), rgb(3, 37, 76));
     position: relative;
+    height: 110vh;
+    
 }
 .contact {
     display: flex;
@@ -23,16 +25,19 @@
     align-items: flex-end;
 }
 .man {
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 700px;
+    margin-top: 10rem;
+
+
 }
 .girl {
     position: absolute;
-    left: 29rem;
-    /* bottom: 10rem; */
+    left: 32rem;
+     bottom: 1rem; 
     /* top:rem; */
-    width: 350px;
-    height: 500px;
+    width: 500px;
+    height: 700px;
 }
 .input-name {
     /* margin: 1rem; */
