@@ -22,9 +22,11 @@
   height: 200px;
   background-color:#082f49; 
   color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 1rem;
 }
 .palce p {
-  font-size: 5ch;
+  font-size: 4.5ch;
   display: flex;
   justify-content: flex-end;
   padding-right: 5rem;
@@ -34,7 +36,7 @@
   width: 400px;
   position: absolute;
   /* bottom: 0px; */
-  top: 2rem;
+  top: 4rem;
   left: 1rem;
 }
 .lorem {
@@ -43,11 +45,49 @@
   background-color: rgb(48, 121, 255);
   position: absolute;
   left: 30rem;
-  bottom: -5rem;
+  bottom: -4rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: .5rem;
+  padding: 1rem;
   color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.main-seminar {
+  position: relative;
+}
+.seminar {
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+}
+.seminar p {
+  width: 600px;
+  height: 200px;
+  background-color:#082f49; 
+  color: white;
+  font-size: 5ch;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.g5 {
+  width: 350px;
+  height: 450px;
+}
+.seminar-para {
+  width: 500px;
+  height: 150px;
+  background-color: rgb(48, 121, 255);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 43rem;
+  bottom: 5rem;
 }
