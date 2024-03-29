@@ -1,8 +1,23 @@
 .head-footer {
-    background-color: rgb(17, 103, 177);
-    font-family: "Poppins", sans-serif;
-    padding-top: 1rem;
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .hide {
+    transform: translateY(100%);
+  }
+  
+  .show {
+    transform: translateY(0);
+  }
+  
 .copy-right {
     display: flex;
     justify-content: space-between;

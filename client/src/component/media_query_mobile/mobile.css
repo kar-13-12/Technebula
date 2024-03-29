@@ -417,8 +417,14 @@
     position: relative !important;
     top: 3rem;
   }
+
+  #panel1a-header{
+    padding-left: 2rem;
+  }
   .style {
-    margin: 0px !important;
+    margin: 11px !important;
+    
+
   }
   .course-img {
     width: 150px !important;
@@ -549,7 +555,7 @@
     justify-content: center !important;
   }
   .style {
-    margin: 0px !important;
+    margin: 10px !important;
   }
   .app {
     top: 4rem !important;
