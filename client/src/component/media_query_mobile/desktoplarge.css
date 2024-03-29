@@ -236,6 +236,16 @@
     
 }
 
+
+    .girl {
+        position: absolute !important;
+        left: 22rem !important;
+        bottom: 1rem;
+        width: 500px;
+        height: 700px;
+    }
+
+
 }
 
 
