@@ -2,7 +2,7 @@ import Navbar from "../../component/navbar/navbar";
 import gallery1 from "../../assets/g1.jpg";
 import gallery2 from "../../assets/g2.jpg";
 import gallery3 from "../../assets/gallery-3.jpeg";
-import gallery4 from "../../assets/g4.jpg";
+import gallery4 from "../../assets/g5.jpg";
 import gallery5 from "../../assets/g5.jpg";
 import gallery6 from "../../assets/g6.jpg";
 import './gallery.css';
@@ -26,9 +26,9 @@ const Gallery = () => {
           <p>Place of Knowledge</p>
         </div>
         <div className="">
-          <img src={gallery4} alt=""/>
+          <img src={gallery4} className="g4" alt=""/>
         </div>
-        <div>
+        <div className="lorem">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eaque.</p>
         </div>
       </div>

@@ -7,7 +7,7 @@
   }
 .g1 {
   width: 300px;
-  height: 300px;
+  height: 250px;
 }
 .learning {
   font-family: 'Poppins', sans-serif;
@@ -18,14 +18,25 @@
 }
 
 .palce {
-  width: 600px;
+  width: 900px;
   height: 200px;
   background-color:#082f49; 
   color: white;
 }
 .palce p {
-  font-size: 3ch;
+  font-size: 5ch;
   display: flex;
   justify-content: flex-end;
   padding-right: 5rem;
+}
+.g4 {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  /* bottom: 0px; */
+  top: 2rem;
+  left: 2rem;
+}
+.lorem {
+  font-size: 6ch;
 }
