@@ -78,12 +78,10 @@ div#panel3-header {
     font-family: "Poppins", sans-serif;
     font-weight: 00;
 }
-/* .course-img{
-    width: 500px !important;
-    top: 15rem !important;
-}
 
-.img-course {
-    width: 200px !important;
-    top: 15rem !important;
-} */
+.MuiAccordionDetails-root.css-15v22id-MuiAccordionDetails-root {
+    background-color: skyblue;
+    margin-bottom: 2px;
+    overflow-y: scroll;
+    height: 200px;
+}

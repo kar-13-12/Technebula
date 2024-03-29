@@ -71,11 +71,12 @@ export default function Navbar() {
         {isMobile ? (
           <Button className="hamburger-menu" onClick={toggleMenu}><span style={{ color: 'white' }}>&#9776;</span></Button>
         ) : (
-          <nav>
+          <nav >
             {navigation.map((item) => (
-              <Link to={item.link} key={item.name} style={{ textDecoration: 'none', marginRight: '10px' }}>
+              <Link to={item.link} key={item.name}  style={{ textDecoration: 'none', marginRight: '10px' }}>
                 <Button
                   color={item.current ? 'primary' : 'inherit'}
+                  className='app-bar'
                   sx={{
                     color: item.current ? 'blue' : 'inherit',
                     backgroundColor: item.current ? 'white' : 'transparent',

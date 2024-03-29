@@ -6,6 +6,9 @@ import gallery4 from "../../assets/g5.jpg";
 import gallery5 from "../../assets/gallery-3.jpeg";
 import gallery6 from "../../assets/g6.jpg";
 import "./gallery.css";
+import { FadeOnVisible } from "../../component/FadeOnVisible/FadeOnVisible";
+import { FadeOnVisibleRight } from "../../component/FadeOnVisibleRight/FadeOnVisibleRight";
+import { FadeOnVisibleLeft } from "../../component/FadeOnVisibleLeft/FadeOnVisibleLeft";
 
 const Gallery = () => {
   return (
@@ -34,6 +37,7 @@ const Gallery = () => {
       <div className="learning">
         <h1>Discover The New way of Learning</h1>
       </div>
+      <FadeOnVisibleLeft>
       <div className="group-1">
         <div className="palce">
           <p>Place of Knowledge</p>
@@ -50,6 +54,8 @@ const Gallery = () => {
           </p>
         </div>
       </div>
+      </FadeOnVisibleLeft>
+      <FadeOnVisibleRight>
       <div className="main-seminar">
         <div className="seminar">
           <p>Semianr Session</p>
@@ -64,6 +70,7 @@ const Gallery = () => {
           </p>
         </div>
       </div>
+      </FadeOnVisibleRight>
     </div>
   );
 };

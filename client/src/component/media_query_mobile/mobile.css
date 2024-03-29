@@ -539,6 +539,9 @@
   .head-footer {
     height: 30vh;
   }
+  .MuiAccordionDetails-root.css-15v22id-MuiAccordionDetails-root {
+    overflow-y: scroll;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

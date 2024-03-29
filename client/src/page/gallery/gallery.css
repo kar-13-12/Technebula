@@ -123,3 +123,21 @@ justify-content: flex-end;
   color: white;
   font-size: 24px;
 }   
+.fade-right {
+  animation: slideToLeft 5s;
+  animation-name: faderight;
+  animation-duration: 1s;
+  /* animation-direction: reverse; */
+}
+@keyframes faderight {
+    from {
+        transform:translate(300px);
+        opacity: 0.1;
+        /* transition: 1s; */
+        /* right: 0; */
+      }
+      to {
+        transform: translate(0px);
+        /* transition: 1s; */
+      }
+}
