@@ -1,3 +1,6 @@
+.head-gallery {
+  height: 185vh;
+}
 .three-img {
   display: flex;
   flex-wrap: wrap;
@@ -6,8 +9,8 @@
   padding: 2rem;
   }
 .g1 {
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 300px;
 }
 .learning {
   font-family: 'Poppins', sans-serif;

@@ -11,7 +11,7 @@ const Gallery = () => {
  
 
   return (
-    <>
+    <div className="head-gallery">
       <Navbar />
       <div className="three-img">
         <img src={gallery1} className="g1" alt=""/>
@@ -41,7 +41,7 @@ const Gallery = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quas non maiores assumenda doloribus ea quo quae voluptas ducimus sunt, consectetur fugiat rem consequuntur voluptatibus consequatur aperiam, ipsa similique sit.</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
