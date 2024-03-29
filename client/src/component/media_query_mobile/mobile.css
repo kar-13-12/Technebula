@@ -419,16 +419,14 @@
     top: 3rem;
   }
 
-  #panel1a-header{
+  #panel1a-header {
     padding-left: 2rem;
   }
   .style {
     margin: 11px !important;
-    
-
   }
   .course-img {
-    width: 150px !important;
+    width: 250px !important;
   }
   .img-course {
     left: -1rem !important;
@@ -478,7 +476,7 @@
   }
   .lady-img {
     margin: 0px !important;
-    width:900px !important;
+    width: 900px !important;
   }
   .neet-font {
     font-size: 1ch !important;
@@ -539,7 +537,7 @@
   .girl {
     left: 20rem !important;
   }
-  .contact{
+  .contact {
     flex-direction: column-reverse;
     align-items: center !important;
     justify-content: center !important;
@@ -580,12 +578,12 @@
   .text-about h1 {
     font-size: 4ch !important;
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
   }
   .dot {
     display: none;
   }
-  .teacher-img{
+  .teacher-img {
     width: 400px !important;
     padding-top: 25px !important;
   }
@@ -634,7 +632,7 @@
     display: none;
   }
   .live-stream {
-    margin: 0PX !important;
+    margin: 0px !important;
     padding-right: 5rem !important;
   }
   .small-ball-2 {
@@ -644,7 +642,7 @@
   }
   .small-ball {
     top: -5rem !important;
-    left: 35rem  !important;
+    left: 35rem !important;
   }
   .small-ball1 {
     left: 0px !important;
@@ -652,7 +650,7 @@
   .small-ball-4 {
     left: 0px !important;
   }
- 
+
   .small-ball-6 {
     left: 0px !important;
   }
@@ -663,7 +661,7 @@
     display: none;
   }
   .blue-ball {
-  display: none;
+    display: none;
   }
   .furit {
     display: none;

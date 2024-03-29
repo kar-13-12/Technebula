@@ -6,19 +6,13 @@ import Navbar from "../../component/navbar/navbar";
 import Accordioncourse from "../../component/accrodion-course/accrodion";
 
 const Course = () => {
-  
   return (
-    <>
+    <div className="neet-cell">
       <Navbar />
       <div className="body-cell">
-        
-        <Accordioncourse/>
-        
-
-        
-           
+        <Accordioncourse />
       </div>
-    </>
+    </div>
   );
 };
 
