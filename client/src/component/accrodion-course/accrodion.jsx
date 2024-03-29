@@ -322,6 +322,9 @@ function MyComponent() {
             alt={`Image ${selectedTopicIndex}`}
             style={{ width: "500px" }} // Adjust width as needed
           />
+          <Typography variant="h6" style={{ textAlign: "center", marginTop: "10px", color:"white", fontFamily:"Poppins ,sans-serif" }}>
+    {biocourses[selectedCourseIndex].topics[selectedTopicIndex]}
+  </Typography>
           {selectedTopicIndex <
             biocourses[selectedCourseIndex].topics.length - 1 && (
             <img

@@ -5,15 +5,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color:#082f49; 
+  background-color: #082f49;
   padding: 2rem;
-  }
+}
 .g1 {
   width: 400px;
   height: 300px;
 }
 .learning {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 7ch;
 }
 .group-1 {
@@ -23,9 +23,9 @@
 .palce {
   width: 1000px;
   height: 200px;
-  background-color:#082f49; 
+  background-color: #082f49;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-top: 1rem;
 }
 .palce p {
@@ -55,23 +55,23 @@
   justify-content: center;
   padding: 1rem;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .main-seminar {
   position: relative;
 }
 .seminar {
-display: flex;
-align-items: flex-end;
-justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .seminar p {
   width: 600px;
   height: 200px;
-  background-color:#082f49; 
+  background-color: #082f49;
   color: white;
   font-size: 5ch;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-left: 1rem;
   padding-top: 1rem;
 }
@@ -90,7 +90,7 @@ justify-content: flex-end;
   justify-content: center;
   padding: 1rem;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   left: 43rem;
   bottom: 5rem;
@@ -99,24 +99,34 @@ justify-content: flex-end;
   position: relative;
   margin: 10px;
   display: inline-block;
-  
+  transition: 1s;
 }
 
 .details-overlay {
   position: absolute;
   top: 9rem; /* Position the overlay at the vertical center of the image */
   left: 9rem; /* Position the overlay at the horizontal center of the image */
-  transform: translate(-1%,-50%); /* Center the overlay perfectly */
-  background-color:#082f49;
+  transform: translate(-1%, -50%); /* Center the overlay perfectly */
+  background-color: #082f49;
   color: white;
   padding: 10px;
   display: none;
   justify-content: center;
   align-items: center;
-  transition-duration:opacity  1s;
+  transition: 1s;
 }
 
-
+.image-container:hover .details-overlay {
+  display: flex;
+  opacity: 1;
+}
+.details-overlay:hover {
+  transition: 1s;
+}
+.three-img img:hover {
+  opacity: 0.5;
+  transition: 1s ease-in-out;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -129,6 +139,7 @@ justify-content: flex-end;
   align-items: center;
   color: white;
   font-size: 24px;
+<<<<<<< HEAD
 
 }   
 
@@ -164,3 +175,20 @@ justify-content: flex-end;
         transform: translateX(0px);
       }
 }
+=======
+}
+.fade-right {
+  animation: slideToLeft 5s;
+  animation-name: faderight;
+  animation-duration: 1s;
+}
+@keyframes faderight {
+  from {
+    transform: translate(300px);
+    opacity: 0.1;
+  }
+  to {
+    transform: translate(0px);
+  }
+}
+>>>>>>> 692d946a336f089c399f84bd734499e941c44f81
