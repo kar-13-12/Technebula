@@ -10,7 +10,7 @@ export default function Navbar() {
   const location = useLocation();
   const [navigation, setNavigation] = useState([
     { name: 'HOME', link: '/', current: location.pathname === '/' },
-    { name: 'ABOUT', link: '#', current: location.pathname === '/about' },
+    { name: 'ABOUT', link: '#about-container', current: location.pathname === '#about-container' },
     { name: 'COURSE', link: '/course', current: location.pathname === '/course' },
     { name: 'GALLERY', link: '/gallery', current: location.pathname === '/gallery' },
     { name: 'CONTACT', link: '/contact', current: location.pathname === '/contact' },
@@ -18,6 +18,7 @@ export default function Navbar() {
   const [isSticky, setIsSticky] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [aboutActive, setAboutActive] = useState(location.pathname === '#about-container');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -57,6 +58,11 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleAboutClick = () => {
+    setAboutActive(true);
+    setIsMenuOpen(false);
+  };
+
   return (
     <AppBar position={isSticky ? 'fixed' : 'static'} style={{ backgroundColor: isSticky ? '#1167B1' : defaultNavbarColor, transition: 'background-color 0.3s' }}>
       <Toolbar className="nav-bar">
@@ -87,24 +93,21 @@ export default function Navbar() {
           </nav>
         )}
         <Drawer
-  anchor="right"
-  open={isMenuOpen}
-  onClose={() => setIsMenuOpen(false)}
-  PaperProps={{ style: { backgroundColor: '#1167b1' } }} // Set background color to white
->
-<List>
-  {navigation.map((item) => (
-    <Link to={item.link} key={item.name} style={{ textDecoration: 'none' }} onClick={() => setIsMenuOpen(false)}>
-      <ListItem button>
-        <Typography style={{ color: 'white',fontSize: '14px' }}>{item.name}</Typography>
-      </ListItem>
-    </Link>
-  ))}
-</List>
-
-
-</Drawer>
-
+          anchor="right"
+          open={isMenuOpen}
+          onClose={() => setIsMenuOpen(false)}
+          PaperProps={{ style: { backgroundColor: '#1167b1' } }}
+        >
+          <List>
+            {navigation.map((item) => (
+              <Link to={item.link} key={item.name} style={{ textDecoration: 'none' }} onClick={() => setIsMenuOpen(false)}>
+                <ListItem button>
+                  <Typography style={{ color: 'white', fontSize: '14px' }}>{item.name}</Typography>
+                </ListItem>
+              </Link>
+            ))}
+          </List>
+        </Drawer>
       </Toolbar>
     </AppBar>
   );

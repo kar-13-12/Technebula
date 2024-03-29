@@ -3,6 +3,11 @@
   margin: 0px;
 }
 
+
+.main-home{
+  height: 650vh;
+}
+
 .head-name {
   color: rgb(2, 106, 167);
   display: flex;

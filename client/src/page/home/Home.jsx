@@ -24,6 +24,7 @@ import { FadeOnVisible } from "../../component/FadeOnVisible/FadeOnVisible";
 const Home = () => {
   return (
     <>
+    <div className="main-home">
       <div className="head-name ">
         <div className="siva">
           <h1>
@@ -57,7 +58,7 @@ const Home = () => {
       <div className="group-img" id="about">
         <img src={groupimg} alt="" className="five-person" />
 
-        <div className="text-about text-white bg-blue-900">
+        <div className="text-about text-white bg-blue-900" id="about-container">
           <div className="img-about">
             <img src={aboutperson} alt="" className="about-person" />
             <h1 className="text-5xl">
@@ -261,6 +262,7 @@ const Home = () => {
           <img src={whatapp} className="whatapp" alt="" />
         </div>
         <div className="blue-ball-2"></div>
+      </div>
       </div>
     </>
   );
