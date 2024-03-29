@@ -78,6 +78,7 @@ justify-content: flex-end;
 .g5 {
   width: 350px;
   height: 450px;
+  margin-top: 12rem;
 }
 .seminar-para {
   width: 500px;
@@ -97,19 +98,25 @@ justify-content: flex-end;
 .image-container {
   position: relative;
   margin: 10px;
+  display: inline-block;
   
 }
 
 .details-overlay {
   position: absolute;
-  top: 50%; /* Position the overlay at the vertical center of the image */
-  left: 50%; /* Position the overlay at the horizontal center of the image */
+  top: 9rem; /* Position the overlay at the vertical center of the image */
+  left: 9rem; /* Position the overlay at the horizontal center of the image */
   transform: translate(-1%,-50%); /* Center the overlay perfectly */
   background-color:#082f49;
   color: white;
   padding: 10px;
   display: none;
+  justify-content: center;
+  align-items: center;
+  transition-duration:opacity  1s;
 }
+
+
 .overlay {
   position: absolute;
   top: 0;
@@ -122,4 +129,38 @@ justify-content: flex-end;
   align-items: center;
   color: white;
   font-size: 24px;
+
 }   
+
+.image-container:hover .details-overlay {
+  display: flex;
+  opacity: .9;
+  transition: 1s !important;
+
+}
+
+.three-img img:hover {
+  opacity: 0.5;
+  /* /*transition: 1s; */
+   /* Decrease the opacity of the image when hovered */
+}
+
+.details-overlay p {
+  color: white;
+  transition: 1s !important;
+}
+
+.fade-in{
+  animation-name: fadein;
+  animation-duration: 1s;
+}
+@keyframes fadein {
+    from {
+        transform: translateX(-100px);
+        opacity: 0.1;
+        transition: 2s;
+      }
+      to {
+        transform: translateX(0px);
+      }
+}
